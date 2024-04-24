@@ -1,0 +1,55 @@
+{
+	"name": "socialZap",
+	"lowCaseName": "socialzap",
+	"description": "Import Social Feed",
+	"author": "Jan Dähne",
+	"version": "1.0.0-pl",
+	"package": {
+		"elements": {
+			"chunks": [{
+                "name": "socialZapTpl",
+                "file": "socialzaptpl.chunk.tpl"
+            }],
+            "snippets": [{
+                "name": "socialZap",
+                "file": "socialzap.snippet.php"
+            }]
+		},
+	    "systemSettings": [
+			{
+				"key": "image_path",
+				"area": "system",
+				"value": "socialzap/images/"
+			},
+			{
+				"key": "secret",
+				"area": "system",
+				"value": ""
+			},
+			{
+				"key": "published",
+				"area": "system",
+				"value": true,
+				"type": "combo-boolean"
+			}
+		]
+	},
+	"database": {
+		"tables": [
+			"SocialZapItem"
+		]
+	},
+	"dependencies": [{
+		"name": "php",
+		"version": ">=5.6"
+	},
+	{
+		"name": "modx",
+		"version": ">=2.6"
+	}],
+	"build": {
+		"readme": "docs/readme.md",
+		"license": "docs/license.md",
+		"changelog": "docs/changelog.md"
+	}
+}
