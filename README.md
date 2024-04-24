@@ -1,5 +1,5 @@
 # socialZap
-socialZap extra for MODX CMS.
+socialZap extra for MODX CMS. Automaticaly Post social Media to your MODX website by the Service Zapier.
 
 ## Setup Zap to post media to your MODX Website
 ### Insgtagram
