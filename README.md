@@ -3,11 +3,12 @@ socialZap extra for MODX CMS. Automatically post social media on your MODX websi
 
 ## Setup Zap to post media to your MODX Website
 ### Insgtagram
-Use this template to setup a zap in Zapier: https://zapier.com/shared/fb926367f974e3de0d125cb415bd137bd53f63b0
+1. Use this template to setup a zap in Zapier: https://zapier.com/shared/fb926367f974e3de0d125cb415bd137bd53f63b0
+2. Connect your Instagram account with the zap.
+3. Edit the Zapier webhook action
+4. Install socialZap MODX extra via package manager
 
-Connect your INstagram account with the zap.
-
-Zapier Webhook Settings:
+#### Zapier Webhook Settings:
 | setting | default |
 | --- | --- |
 | URL | https://www.yourdomain.de/assets/components/socialzap/connector.php?action=importinstagram |
