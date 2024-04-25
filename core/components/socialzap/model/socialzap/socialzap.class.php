@@ -28,7 +28,7 @@ class SocialZap {
 
         // add addPackage
         $basePath = $this->modx->getOption('socialzap.core_path',$config,$this->modx->getOption('core_path').'components/socialzap/');
-        $assetsUrl = $this->modx->getOption('signfy.assets_url',$config,$this->modx->getOption('assets_url').'components/socialzap/');
+        $assetsUrl = $this->modx->getOption('socialzap.assets_url',$config,$this->modx->getOption('assets_url').'components/socialzap/');
         $this->config = array_merge(array(
             'basePath' => $basePath,
             'corePath' => $basePath,

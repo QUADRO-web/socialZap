@@ -2,7 +2,7 @@
 /**
  * Import Instagram
  *
- * @package easycart
+ * @package socialzap
  * @subpackage processor
  */
 

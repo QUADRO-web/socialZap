@@ -55,3 +55,9 @@ socialZap has an internal caching. You can call it uncached.
 | date | Date of Publishing the media |
 | properties | properties can be called by prefixing them: +properties.yourname |
 
+
+## socialFeed migration
+Migrate all your socialFeed media by running the migration script. The migration script needs the socialFeed extra to be still installed: https://www.yourdomain.de/modx/assets/components/socialzap/connector.php?action=migrate
+
+After removing the socialfeed extra - the migration script will fale. You need to be logged in to the manager to run the migration script.
+
