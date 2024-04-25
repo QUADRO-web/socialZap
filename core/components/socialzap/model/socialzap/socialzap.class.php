@@ -152,7 +152,7 @@ class SocialZap {
         $post->set('image_url', $image);
         $post->set('permalink', $item->permalink);
         $post->set('content', $this->removeEmoji($item->content));
-        $post->set('date', $item->published_at);
+        $post->set('date', $item->date);
         $post->set('properties', $item->properties);
         $post->save();
 
