@@ -3,7 +3,7 @@
 	"lowCaseName": "socialzap",
 	"description": "Import Social Feed",
 	"author": "Jan Dähne",
-	"version": "1.0.1-pl",
+	"version": "1.0.2-pl",
 	"package": {
 		"elements": {
 			"chunks": [{
